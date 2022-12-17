@@ -1,10 +1,13 @@
 # Python Telegram Bot MongoDB
 
-Database for python telegram bots based on pyTelegramBotApi with MongoDB. Here it is a base functionality, which is needed for comfortable developming. Library can provide you base interactions with database, users and content.
+![Python](https://img.shields.io/badge/Python-3.8-blue?style=for-the-badge&logo=python)
+![motor](https://img.shields.io/badge/motor_pymongo-gray?style=for-the-badge&logo=mongodb)
+
+База данных для ботов python telegram на основе pyTelegramBotApi с MongoDB. Здесь речь идет о базовом функционале, который необходим для комфортной разработки. Библиотека может предоставить вам базовые взаимодействия с базой данных, пользователями и контентом.
 
 ## Installation
 
-Just download the folder, paste it in you project and import the main class `DataBase`. Create the instance of a class and be happy. 
+Просто скачайте папку, вставьте ее в свой проект и импортируйте основной класс `DataBase`. Создайте экземпляр класса и будьте счастливы.
 
 ```
 pip[in work]
@@ -24,4 +27,5 @@ def send_start_message(message):
     database.register_user(message)
     bot.send_message(message.chat.id, 'Start message...')
 ```
-
+### Присоединяйся к нам
+[![Telegram](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=Telegram)](https://t.me/svpgcorporation)
